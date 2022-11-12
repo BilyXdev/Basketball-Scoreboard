@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 900px;
+    background-image: url("baskettball.jpg");
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section{
+    background-color: rgba(216, 102, 20, 0.5);
+    height: 42%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.scoresContnair{
+    background-color: #1B244A;
+    border-radius: 10px;
+    height: 60%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.scoreBoxs{
+    height: 90%;
+    width: 50%;
+    margin: 0px 20px 0px 20px;
+    text-align: center;
+}
+.scoreBoxs h3{
+    height: 33.33%;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scorePanel{
+    height: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.scorePanel p{
+    background-color: #080001;
+    color: #F94F6D;
+    height: 100%;
+    width: 40%;
+    font-weight: bold;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addPointsContnair{
+    height: 33.33%;
+}
+.addPointsBox{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addPointsBox button{
+    margin: 25px 0 0 0;
+    background-color: #9aabd800;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #9AABD8;
+    color: #9AABD8;
+    margin: 0 3px 0 3px;
+}
+.addPointsBox button:hover{
+    cursor: pointer;
+}
+#leader-Hm{
+    font-size: small;
+    color: skyblue;
+}
+#leader-Gst{
+    font-size: small;
+    color: yellow;
+}
